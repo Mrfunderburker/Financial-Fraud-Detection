@@ -1,8 +1,10 @@
 # Financial-Fraud-Detection
 
 Background 
+
 Throughout our exploration of various supervised learning algorithms, a common theme that you all might have detected (no pun intended) is the concept of extracting some signal from a noisy dataset. 
 This often applies to datasets where our class of interest (fraud, basketball upset, etc) is in the “minority” class of an imbalanced dataset. 
+
 This problem often occurs in the detection of financial fraud. While we can assume that most transactions are credible, classifying every new sample as non-fraudulent (0) will miss every single fraudulent case. 
 Within this project, we will take a look at a synthetic dataset of bank transactions to see which strategies we can take in order to successfully capture as many fraudulent transactions as possible, while also minimizing false positives.
 
@@ -28,9 +30,15 @@ This dataset contains a mix of discrete and continuous variables. As you review 
 
 
 Within this project, you will be creating a comprehensive machine learning pipeline that satisfies the patterned steps of a classic machine learning project. You will: 
+
+
 ● begin with hypothesis formulation through EDA, 
+
 ● complete data cleaning & pre-processing, 
+
 ● and conclude with model generation and a report. 
+
+
 Instructions 
 The following is a list of expected notebooks that should be included in your project: 
 1. Initial EDA 
@@ -67,8 +75,14 @@ We provide links to both Grid & RandomizedSearch objects. Check out the example 
 5. Which model/hyperparameter tuning strategy do I choose? 
 This is your executive decision to make. Better yet, why don’t you try out both and see which one performs better? 
 Submission 
+
 Submit a link to your repository with all required notebooks and write ups tp Canvas
+
 For an example of how this machine learning project could look like, check out the following repositories: 
+
+
 ● Fish Toxicity 
+
 ● Student Performance Prediction 
+
 We are primarily interested in seeing which ideas you took away from the previous weeks of supervised learning. Hesitate to copy ChatGPT code, you will not receive accurate feedback by providing us with LLM generated code. We want to see your work.
